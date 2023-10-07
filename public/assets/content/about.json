@@ -26,28 +26,8 @@
                 ],
                 "planned": [
                     {
-                        "header": "AR iOS Support",
-                        "text": "The current solution uses WebXR which is only supported by Chrome and FireFox browsers on Android devices."
-                    },
-                    {
-                        "header": "AR Ground View Pointers and Orbit Lines",
-                        "text": "Create and improve optional orbit lines and locator arrow features that would assist the user in moving their AR view into an orientation where the ISS comes into view."
-                    },
-                    {
-                        "header": "Show me the ISS",
-                        "text": "Integrate visibility data and push notifications to send reminders and alert the user to times when the ISS is viewable without a telescope."
-                    },
-                    {
-                        "header": "ISS Spotter Sharing",
-                        "text": "Take photos and videos of the ISS and share them with your friends on various social media platforms."
-                    },
-                    {
-                        "header": "3D Interactive Tour",
-                        "text": "Use various available models to provide a 3D tour of the ISS with call outs for the various modules with information on their usage."
-                    },
-                    {
-                        "header": "Where’s my $1M Wrench",
-                        "text": "A game that challenges the user to find an interactive cartoon wrench character hidden in the 3D tour of the ISS. The wrench character will then describe life and activities associated with the location of the wrench."
+                        "header": "A finished product",
+                        "text": "That would be nice."
                     }
                 ]
             }
