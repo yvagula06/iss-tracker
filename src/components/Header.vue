@@ -1,7 +1,7 @@
 <template>
     <div class="header">
       <hamburger></hamburger>
-      <h1 class="centered-title">Just The Ducks</h1>
+      <h1 class="centered-title">CSU Chads</h1>
       
       <!-- <div @click="updateMenu(childMenu)" :class="{ vis: isAboutPath() }" class="feature-menu">
         <div class="earth"></div>
