@@ -1,0 +1,104 @@
+{
+    "sections": {
+        "About Us": {
+            "text": "Just the Ducks is a group of 6 coders by day and NASA enthusiasts by night. Our group was formed while seeking unique coding experiences outside of our normal work environment. We spend our days building and supporting information systems for a mild mannered insurance company in Flint, Michigan. By night we challenge ourselves with coding and camaraderie. We joined the 2022 NASA Space Apps challenge with the goal of expanding our skills and experiencing NASA to the fullest.",
+            "features": {
+                "initial": [],
+                "planned": []
+            }
+        },
+        "“A Window to the ISS (International Space Station)”": {
+            "text": "Our initial product seeks to provide a unique educational experience through the use of web based 3D and mobile technologies to expand awareness of the ISS. Our proof of concept tackles the challenges of efficient and effective 3D modeling on the web.",
+            "features": {
+                "initial": [
+                    {
+                        "header": "Orbit Map",
+                        "text": "Provide an interactive 3D map of the ISS orbiting around the earth."
+                    },
+                    {
+                        "header": "Orbit Guidance",
+                        "text": "Provide lines for the current orbit, one past orbit and one future orbit."
+                    },
+                    {
+                        "header": "Locate My ISS",
+                        "text": "Using geolocation of the user and information regarding the ISS orbit, provide an augmented reality tool that can locate the ISS in the sky when it is overhead of the user."
+                    }
+                ],
+                "planned": [
+                    {
+                        "header": "AR iOS Support",
+                        "text": "The current solution uses WebXR which is only supported by Chrome and FireFox browsers on Android devices."
+                    },
+                    {
+                        "header": "AR Ground View Pointers and Orbit Lines",
+                        "text": "Create and improve optional orbit lines and locator arrow features that would assist the user in moving their AR view into an orientation where the ISS comes into view."
+                    },
+                    {
+                        "header": "Show me the ISS",
+                        "text": "Integrate visibility data and push notifications to send reminders and alert the user to times when the ISS is viewable without a telescope."
+                    },
+                    {
+                        "header": "ISS Spotter Sharing",
+                        "text": "Take photos and videos of the ISS and share them with your friends on various social media platforms."
+                    },
+                    {
+                        "header": "3D Interactive Tour",
+                        "text": "Use various available models to provide a 3D tour of the ISS with call outs for the various modules with information on their usage."
+                    },
+                    {
+                        "header": "Where’s my $1M Wrench",
+                        "text": "A game that challenges the user to find an interactive cartoon wrench character hidden in the 3D tour of the ISS. The wrench character will then describe life and activities associated with the location of the wrench."
+                    }
+                ]
+            }
+        }
+    },
+    "Tools": {
+        "IDE:": [{
+            "name": "VSCode"
+        }],
+        "Frameworks:": [
+            {
+                "name": "Vue.js"
+            },
+            {
+                "name": "Node.js"
+            },
+            {
+                "name": "Three.js"
+            },
+            {
+                "name": "WebXR"
+            },
+            {
+                "name": "TypeScript"
+            },
+            {
+                "name": "JavaScrip"
+            },
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "SCSS"
+            }
+        ],
+        "Tools:": [
+            {
+                "name": "Figma - Prototyping"
+            },
+            {
+                "name": "Blender - 3D Modelling"
+            },
+            {
+                "name": "GitHub - Code Version Control and Hosting"
+            },
+            {
+                "name": "OBS - Video Editing"
+            }
+        ]
+    }
+}
