@@ -1,0 +1,71 @@
+.hero {
+  &__title {
+    &__main {
+      font-size: 4rem;
+      color: #fff;
+    }
+    &__sub {
+      font-size: 1.8rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    margin: 1rem;
+    text-align: center;
+  }
+
+  &__links {
+    &__link {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: #ffffff;
+      text-decoration: none;
+      margin: 1rem 0.2rem;
+    }
+
+    color: #ffffff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.div {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.hero .content {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 40vh;
+}
+@media screen and (max-width: 640px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+}

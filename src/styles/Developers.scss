@@ -1,0 +1,43 @@
+.developers {
+  &__header {
+    font-size: 3rem;
+    margin: 2.75rem 0;
+    text-align: center;
+  }
+  &__list {
+    &__item {
+      &__img {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+      }
+
+      &__name {
+        font-size: 2rem;
+        width: 23rem;
+      }
+
+      &__logo {
+        width: 4rem;
+        height: 4rem;
+        color: #ffffff;
+        font-size: 4rem;
+      }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+  margin: 0 25rem;
+
+  color: #ffffff;
+}
+
+li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
