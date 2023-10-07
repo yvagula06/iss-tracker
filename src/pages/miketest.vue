@@ -85,7 +85,7 @@ async function main() {
     tleData
   ] = await Promise.all([
      loader.loadAsync('/assets/models/ISS_stationary_lo.glb'),
-     loader.loadAsync('/assets/models/Moon.glb'),    
+     loader.loadAsync('/assets/models/MoonScaled.glb'),    
     // 25544 = ISS (Zarya)
     fetch('https://tle.ivanstanojevic.me/api/tle/25544').then(res => res.json())
   ])
