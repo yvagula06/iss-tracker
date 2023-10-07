@@ -1,23 +1,23 @@
 {
     "sections": {
         "About Us": {
-            "text": "Just the Ducks is a group of 6 coders by day and NASA enthusiasts by night. Our group was formed while seeking unique coding experiences outside of our normal work environment. We spend our days building and supporting information systems for a mild mannered insurance company in Flint, Michigan. By night we challenge ourselves with coding and camaraderie. We joined the 2022 NASA Space Apps challenge with the goal of expanding our skills and experiencing NASA to the fullest.",
+            "text": "Ladies and gentlemen, we are the CSU Chads, a dynamic team of six innovators ready to tackle the challenges of this hackathon with creativity and determination.",
             "features": {
                 "initial": [],
                 "planned": []
             }
         },
         "“A Window to the ISS (International Space Station)”": {
-            "text": "Our initial product seeks to provide a unique educational experience through the use of web based 3D and mobile technologies to expand awareness of the ISS. Our proof of concept tackles the challenges of efficient and effective 3D modeling on the web.",
+            "text": "the website we've created is an interactive 3D map of lunar seismic activity, seamlessly blending space exploration and data visualization to offer users a captivating and educational journey through the Moon's geophysical phenomena, complete with dynamic features, informative data representation, and valuable context for a diverse audience ranging from students to space enthusiasts.",
             "features": {
                 "initial": [
                     {
-                        "header": "Orbit Map",
-                        "text": "Provide an interactive 3D map of the ISS orbiting around the earth."
+                        "header": "Map of Moonquakes 2.0",
+                        "text": "Provide an interactive 3D map of the seismic activity on the moon"
                     },
                     {
-                        "header": "Orbit Guidance",
-                        "text": "Provide lines for the current orbit, one past orbit and one future orbit."
+                        "header": "Seismic Activity Coordinates",
+                        "text": "Map the coordinates on the moon where seismic activity was measured"
                     },
                     {
                         "header": "Locate My ISS",
