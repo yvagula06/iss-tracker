@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html {
+    height: 100%; }
+  
+  body {
+    height: 100%; }
+  
+  #app {
+    height: 100%; }
+
+#app {
+    font-family: 'Dosis', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: black;
+}
+
+h1 {
+    font-family: Dosis;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 70px;
+    color: #93CDDD;
+}
+
+h2{
+    font-family: Dosis;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 70px;
+    color: black;  
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Dosis;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #93CDDD;
+}
+
+p{
+    font-family: Dosis;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.earth{
+    background-image: url('/public/icons/earth.ico');
+    background-size: 34px;
+    height: 33px;
+    width: 33px;
+}
+
+.gutters{
+    margin: 0px 20px;
+}
+
+a {
+    color: #93CDDD;
+    font-size: 36px; 
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-family: Dosis;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 37px;
+        color: #93CDDD;
+    }
+
+    a {
+        color: #93CDDD;
+        font-size: 22px; 
+        text-decoration: underline;
+    }
+
+    h4{
+        font-family: Dosis;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 37px;
+        font-weight: bolder;
+    }
+
+    h5{
+        font-family: Dosis;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 37px;
+        color: black;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-family: Dosis;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 37px;
+    }
+
+    h2 {
+        font-family: Dosis;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 37px;
+    }
+}
