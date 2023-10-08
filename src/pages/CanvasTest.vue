@@ -88,7 +88,7 @@ async function main() {
   // Apply axial tilt
   // NB this applies to both the planet and the station as we have planet based lat/lon
   // TODO position the "sun" light appropriate to the time of year
-  system.rotateX(23.5 * Math.PI / 180)
+  system.rotateX(63.5 * Math.PI / 180)
   
   // Scale the ISS so it is visible, but not intersecting the planet
   station.scale.set(5, 5, 5)
